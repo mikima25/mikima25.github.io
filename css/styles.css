@@ -1,13 +1,75 @@
-body {
-    background-color: lightblue;}
 
-p {
-    color: black;
-    font-size: 12;
-    font-weight: normal;
-    font-family: fantasy;
+html *
+{font-size: 1em !important;
+
+
 }
- img {
-     float: left;
-     margin: auto;
- }
+
+html *
+{
+    font-size: 1em !important;
+    font-family: verdana !important;
+    color: black !important;
+}
+
+
+img
+{
+    float: right;
+
+}
+.sidebar
+{
+    width: 20%;
+    height: 100%;
+    float: left;
+    background-color: green;
+    color: blue;
+}
+
+body, html
+{
+    height: 100%
+}
+body
+body
+{
+    background-image: url("http://news.nationalgeographic.com/news/2014/09/140922-pristine-seas-expansion-ocean-marine-conservation/#/83949.jpg");
+    background-repeat: repeat-x;
+}
+body
+{
+    background-image: image();
+
+}
+.column
+{
+    width: 30%;
+    float: right;
+}
+#logo
+{
+    color: blue;
+    width: auto;
+}
+.my-class
+{
+    border: 2px solid green;
+    padding: 4px
+    background-color: red;<body>
+    <div class="my-class">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+
+}
+.my-class
+{
+    margin: 12px
+}
+.repo
+{
+    border: 6px solid red;
+    padding: 12px;
+}
+.repo {margin: 10px;
+
+background-color: yellow;
+}
