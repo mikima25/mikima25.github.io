@@ -1,68 +1,30 @@
-
-<<<<<<< HEAD
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: grid;
 }
-li {
 
 }
-.active {
-    background-color: #4CAF50;
-    color: white;
-}
 li {
-    float: center;
     margin: 8px;
     padding: 8px;
     background-color: #19939e;
+    float: right;
+}
+li a {
+    display: inline-block;
 }
 body {
     background-image:url(images/b5.jpg);
     background-repeat: repeat-y;
     background-size: 300% 300%;
 }
-.nav ul {
-  list-style: none;
-  background-color: #444;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
-.nav li {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 30px;
-  border-bottom: 1px solid #888;
-}
 
-.nav a {
-  text-decoration: none;
-  color: #fff;
-  display: block;
-  transition: .3s background-color;
-}
-
-.nav a:hover {
-  background-color: #005f5f;
-}
-
-.nav a.active {
-  background-color: #fff;
-  color: #444;
-  cursor: default;
-}
 h2 {
     text-align: center;
     font-size: 12;
     font-weight: normal;
-=======
-html *
-{font-size: 1em !important;
-
-
 }
 
 html *
@@ -72,65 +34,17 @@ html *
     color: black !important;
 }
 
-
-img
-{
-    float: right;
-
-}
-.sidebar
-{
-    width: 20%;
-    height: 100%;
-    float: left;
-    background-color: green;
-    color: blue;
-}
-
-body, html
-{
-    height: 100%
-}
-body
 body
 {
-    background-image: url("http://news.nationalgeographic.com/news/2014/09/140922-pristine-seas-expansion-ocean-marine-conservation/#/83949.jpg");
-    background-repeat: repeat-x;
+    background-color: #b3d1bb;
 }
-body
-{
-    background-image: image();
-
+header {
+    display: inline-flex;
 }
-.column
-{
-    width: 30%;
-    float: right;
+.repo {
+    text-align: center;
 }
-#logo
-{
-    color: blue;
-    width: auto;
-}
-.my-class
-{
-    border: 2px solid green;
-    padding: 4px
-    background-color: red;<body>
-    <div class="my-class">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
-
-}
-.my-class
-{
-    margin: 12px
-}
-.repo
-{
-    border: 6px solid red;
-    padding: 12px;
-}
-.repo {margin: 10px;
-
-background-color: yellow;
->>>>>>> 45dff2f95f9a51faf0fe37ea26f45f9b70d887c4
+.sidebar {
+    background-color: #818c77;
+    padding: 40px;
 }
