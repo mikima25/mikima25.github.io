@@ -63,3 +63,13 @@ h3 {
 footer {
     background-color: #1a1a1a;
 }
+.home-image {
+    width: 450px;
+    height: 450px;
+    text-align: center;
+    border-radius: 50%;
+    float: right;
+}
+#home-image {
+    text-align: justify;
+}
