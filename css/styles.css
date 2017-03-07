@@ -5,6 +5,7 @@
     width: 100%;
     margin: 0;
     text-align: center;
+    display: none;
 }
 ul {
     list-style-type: none;
@@ -66,10 +67,17 @@ footer {
 .home-image {
     width: 450px;
     height: 450px;
-    text-align: center;
     border-radius: 50%;
-    float: right;
+    float: middle;
+    padding: 50px;
+    text-align: center;
 }
 #home-image {
     text-align: justify;
+}
+.menu {
+    width: 50px;
+    height: 5px;
+    background-color: black;
+    margin: 10px 0;
 }
